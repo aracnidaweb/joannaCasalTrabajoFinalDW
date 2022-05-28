@@ -1,0 +1,104 @@
+*
+{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+.banner{
+    width: 100vw;
+    margin: 0%;
+}
+header{
+    background-color: #eeeeee;
+    height: 10%;
+    margin: 0%
+}
+ul{
+    margin: 0%;
+    height: 5%;
+    text-align:left;
+}
+h1{
+    color: #05a791;
+    background-color: #b0b9b9;
+    background-position: center;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    background-color: #05a791;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: #262828;
+    background-color: #05a791;
+    border: #eeeeee 3px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+body{
+    font-family: 'Outfit', sans-serif;}
+.imghome{
+    width: 500px;
+    border: 3px;
+    position:relative;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+.grid-art-home{
+    display: grid; grid-template-columns: 50% 50%;
+    align-content: center;
+    justify-content: center;
+    color: #262828;
+}
+h2{
+    display: grid;grid-template-columns: 100%;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0%;
+}
+
+
+
+/*modificaciones en el footer*/
+.redes{
+    width: 25px;
+    position: relative;
+    background-color: #cfd7d7
+}
+.footer{
+    margin:0%;
+    text-align: left 5%;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    background-color: #cfd7d7;
+}
+ul{
+    margin-left: 5%;
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #cfd7d7;
+    padding-left: 0%;
+}
+
+@media (max-width:360px){
+    .h1{
+        color: #05a791;
+        background-color: #ebefef;
+        background-position: center;
+        font-weight: 100;
+        font-size: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .grid-art-home{
+        grid-template-columns: 1fr;
+    }
+    .imghome{
+        margin: 2px;
+        padding-right: 2px;
+        width: 150px;
+    }
+}

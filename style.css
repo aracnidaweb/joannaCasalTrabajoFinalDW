@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;          
+  box-sizing: border-box;
+}
+
+/*variables de manual de marca*/
+header {
+  background-color: #e2e2e2;
+  height: 10%;
+  margin: 0%;
+}
+
+.banner {
+  width: 100vw;
+  margin: 0%;
+}
+
+ul {
+  margin: 0%;
+  height: 5%;
+  text-align: left;
+}
+
+h1 {
+  color:yellow;
+  background-color: #b0b9b9;
+  background-position: center;
+  font-weight: 700;
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  background-color: #05a791;
+  background-position: center;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+h3 {
+  color: #262828;
+  background-color: #05a791;
+  border: #eeeeee 3px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+p {
+  font-family: Verdana,Tahoma, sans-serif;
+  font-size: 5em;
+  font-style: italic;
+  color: black;
+  text-align: justify;
+}
+
+.imghome {
+  width: 300px;
+  border: 3px;
+  position: relative;
+  padding-bottom: 3em;
+  padding-top: 1em;
+}
+
+.grid-art-home {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #262828;
+}
+
+h2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 0%;
+}
+
+.redes {
+  width: 20px;
+  position: relative;
+  background-color: #cfd7d7;
+}
+
+.footer {
+  margin: 0%;
+  text-align: left 5%;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+  background-color: #cfd7d7;
+}
+
+ul {
+  margin-left: 5%;
+  font-size: 30px;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: #cfd7d7;
+  padding-left: 0%;
+}
+
+.cajaTexto1 {
+  border-color: #4d635e;
+  border: solid 1px;
+}
+
+/*estilos de la pagina contacto*/
+.contac-form {
+  font-size: 2em;
+  font-family: Verdana,Tahoma, sans-serif;
+  background-color: red;
+  color: #05a791;
+}
+
+button {
+  background-color: #b00772;
+}
+
+.redes {
+  width: 25px;
+  position: relative;
+}
+
+/*media cueries para diferentes vistas: movile, tablet, pc*/
+@media (max-width: 360px) {
+  .h1 {
+    color: #05a791;
+    background-color: #ebefef;
+    background-position: center;
+    font-weight: 100;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .grid-art-home {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .imghome {
+    margin: 2px;
+    padding-right: 2px;
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.contac-form{
+    font-size: 2em;
+    font-family:Verdana,Tahoma, sans-serif;
+    line-height: 2;
+    font-weight: 60;
+    font-stretch: normal;
+    font-variant: small-caps;
+    color: #05a791
+}
+button{
+    background-color: #b00772;
+}
+.redes{
+    width: 25px;
+    position: relative;
+}
